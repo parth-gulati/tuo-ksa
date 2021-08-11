@@ -149,7 +149,7 @@ d888888888888888888888=88888888888888888888888888888888888888888  Normand   88
         </h1>
 
         <p className={[styles.description, displayParaClass].join(' ')}>
-          Let's get started
+          Let&apos;s get started
         </p>
         </>)
         }
