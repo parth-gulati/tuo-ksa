@@ -31,7 +31,7 @@ const data = [
   {
     question: "What do I like about you?",
     error: "No incorrect answers here either",
-    options: ["Beautiful", "Sense of Humor", "So so smort", "Charming"],
+    options: ["Beautiful", "Sense of Humor", "So so smort", "Dalli (jk)"],
     answer: "All",
   },
   {
