@@ -35,13 +35,13 @@ export default function Form() {
   }
 
   const checkInput = () =>{
-    if(input==="Yes, I will go out on a date with you on Sunday"){
+    if(input==="Yes, I will go out on a date with you on Saturday"){
       setError(false);
       window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
       return;
     }
-    if(input.length>0 && "Yes, I will go out on a date with you on Sunday".includes(input)){
+    if(input.length>0 && "Yes, I will go out on a date with you on Saturday".includes(input)){
         setError(true);
         setErrorMessage("Lazy");  
         return;  
@@ -58,7 +58,7 @@ export default function Form() {
         </h1>
 
         <p className={styles.description}>
-          Enter 	&quot;Yes, I will go out on a date with you on Sunday&quot; in the input box below
+          Enter 	&quot;Yes, I will go out on a date with you on Saturday&quot; in the input box below
         </p>
 
         <div className={styles.grid}>
